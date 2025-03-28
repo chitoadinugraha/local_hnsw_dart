@@ -3,7 +3,6 @@ description: >
   A lightweight, in-memory HNSW (Hierarchical Navigable Small World) vector index for Dart & Flutter.
   Supports fast approximate nearest neighbor (ANN) search with cosine or Euclidean similarity.
 version: 1.0.0
-publish_to: https://pub.dev
 example: example/local_hnsw_example.dart
 
 homepage: https://github.com/chitoadinugraha/local_hnsw_dart
