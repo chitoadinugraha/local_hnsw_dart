@@ -1,15 +1,36 @@
 name: local_hnsw
-description: A starting point for Dart libraries or applications.
+description: >
+  A lightweight, in-memory HNSW (Hierarchical Navigable Small World) vector index for Dart & Flutter.
+  Supports fast approximate nearest neighbor (ANN) search with cosine or Euclidean similarity.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+publish_to: https://pub.dev
 example: example/local_hnsw_example.dart
+
+homepage: https://github.com/chitoadinugraha/local_hnsw_dart
+repository: https://github.com/chitoadinugraha/local_hnsw_dart
+issue_tracker: https://github.com/chitoadinugraha/local_hnsw_dart/issues
 
 environment:
   sdk: ^3.7.2
 
-# Add regular dependencies here.
-# dependencies:
-  # path: ^1.8.0
+topics:
+  - vector-search
+  - ai
+  - ann
+  - hnsw
+  - embeddings
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+  dart:
+
+dependencies:
+  # Add runtime dependencies here
 
 dev_dependencies:
   lints: ^5.0.0
