@@ -15,7 +15,6 @@ environment:
 
 topics:
   - vector-search
-  - ai
   - ann
   - hnsw
   - embeddings
@@ -27,9 +26,8 @@ platforms:
   macos:
   web:
   windows:
-  dart:
 
-dependencies:
+# dependencies:
   # Add runtime dependencies here
 
 dev_dependencies:
